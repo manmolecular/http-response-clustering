@@ -1,17 +1,18 @@
 #!/usr/bin/env python3
 
-from handlers.files_handler import FilesHandler
-from handlers.shodan_handler import ShodanHandler
-from helpers.tools import Tools
-from parsers.http_parser import HttpParser
 from copy import deepcopy
-from cluster.cluster import CustomCluster
 from typing import Tuple, List, Dict
+
+from cluster.cluster import CustomCluster
 from configurations.default_values import (
     DefaultQueries,
     DefaultShodanValues,
     DefaultValues,
 )
+from handlers.files_handler import FilesHandler
+from handlers.shodan_handler import ShodanHandler
+from helpers.tools import Tools
+from parsers.http_parser import HttpParser
 
 
 def get_hosts_shodan() -> Dict[str, list]:

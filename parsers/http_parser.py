@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-from configurations.default_values import TrashHeaders
 from typing import List
+
 from configurations.default_values import DefaultPlates
+from configurations.default_values import TrashHeaders
 
 
 class HttpParser:

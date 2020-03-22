@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 
-from configurations.default_values import DefaultValues as FilesDefaultValues
-from typing import Dict
 from json import dump, load
+from typing import Dict
+
+from configurations.default_values import DefaultValues as FilesDefaultValues
 
 
 class FilesHandler:

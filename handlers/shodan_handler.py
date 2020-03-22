@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 
 from itertools import islice
-from shodan import Shodan, APIError
-from configurations.default_values import DefaultShodanValues
 from typing import List, Dict
+
+from shodan import Shodan, APIError
+
+from configurations.default_values import DefaultShodanValues
 
 
 class ShodanHandler:

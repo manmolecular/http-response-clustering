@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 from sklearn.feature_extraction import text
 from sklearn.feature_extraction.text import TfidfVectorizer
+
 from configurations.default_values import AdditionalStopWords
 
 
