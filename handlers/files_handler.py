@@ -6,7 +6,11 @@ from json import dump, load
 
 
 class FilesHandler:
-    def __init__(self, filename: str = FilesDefaultValues.DATA_FILE, results: Dict[str, str] or None = None):
+    def __init__(
+        self,
+        filename: str = FilesDefaultValues.DATA_FILE,
+        results: Dict[str, str] or None = None,
+    ):
         self.filename = filename
         self.results = results
 

@@ -9,7 +9,9 @@ class Tools:
         pass
 
     @staticmethod
-    def process_data(results_to_process: Dict[str, list], http_parser: HttpParser = HttpParser()) -> Dict[str, list]:
+    def process_data(
+        results_to_process: Dict[str, list], http_parser: HttpParser = HttpParser()
+    ) -> Dict[str, list]:
         """
         Process all of the results, retrieve some headers
         @param results_to_process: results to process
