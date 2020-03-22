@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-from typing import Dict, List, Tuple
-from parsers.http_parser import HttpParser
 from random import sample
+from typing import Dict, List, Tuple
+
+from parsers.http_parser import HttpParser
 
 
 class Tools:
