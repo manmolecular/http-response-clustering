@@ -9,4 +9,4 @@
 !interactive_cluster.ipynb
 !requirements.txt
 !docker/entrypoint.sh
-!docker/requirements_alpine.txt
+!docker/alpine/requirements.txt
