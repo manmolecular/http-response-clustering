@@ -1,21 +1,26 @@
 #!/usr/bin/env python3
 from configurations.default_values import TrashHeaders
 from typing import List
+from configurations.default_values import DefaultPlates
 
 
 class HttpParser:
-    def __init__(self,
-                 process_cookie: bool = False,
-                 process_trash_headers: bool = False,
-                 remove_digits: bool = False,
-                 remove_special: bool = False):
+    def __init__(
+        self,
+        process_cookie: bool = False,
+        process_trash_headers: bool = False,
+        remove_digits: bool = False,
+        remove_special: bool = False,
+    ):
         self.process_cookie = process_cookie
         self.process_trash_headers = process_trash_headers
         self.remove_digits = remove_digits
         self.remove_special = remove_special
 
     @staticmethod
-    def _check_if_trash_header(raw_header: str, trash_headers: List[str] = None) -> bool:
+    def _check_if_trash_header(
+        raw_header: str, trash_headers: List[str] = None
+    ) -> bool:
         """
         Check if current header is a trash header (we need to remove it)
         @param raw_header: header to check
@@ -30,13 +35,22 @@ class HttpParser:
         return False
 
     @staticmethod
-    def _remove_special_chars_from_word(raw_word: str) -> str:
+    def _remove_special_chars_from_word(raw_word: str, separator: str = " ") -> str:
         """
         Remove some special chars from words
         @param raw_word: raw word to remove chars from
+        @param separator: word string separator
         @return: cleaned-up line
         """
-        return "".join(char for char in raw_word if char.isalnum())
+        if raw_word.startswith(DefaultPlates.RANDOM_REPLACER):
+            separator = ""
+        string_wo_special = ""
+        for char in raw_word:
+            if char.isalnum():
+                string_wo_special += char
+            else:
+                string_wo_special += separator
+        return string_wo_special
 
     @staticmethod
     def _remove_special_chars_from_line(raw_line: str) -> str:
@@ -51,15 +65,16 @@ class HttpParser:
         return " ".join(raw_words)
 
     @staticmethod
-    def _remove_digits_from_line(raw_line: str) -> str:
+    def _remove_digits_from_line(raw_line: str, separator: str = "") -> str:
         """
         Remove digits from lines
         @param raw_line: raw line to remove digits from
+        @param separator: word string separator
         @return: cleaned-up line
         """
         raw_words = raw_line.split()
         for index, word in enumerate(raw_words):
-            raw_words[index] = "".join(filter(lambda x: x.isalpha(), word))
+            raw_words[index] = separator.join(filter(lambda x: x.isalpha(), word))
         return " ".join(raw_words)
 
     @staticmethod
@@ -75,7 +90,7 @@ class HttpParser:
             cookie_pair = cookie_pair.split("=")
             if len(cookie_pair) < 2:
                 continue
-            cookie_pair[1] = "cookie_value"
+            cookie_pair[1] = DefaultPlates.COOKIE_REPLACER
             cookie_pairs[index] = cookie_pair[0] + "=" + cookie_pair[1]
         return "Set-Cookie: " + ";".join(cookie_pairs)
 
@@ -89,7 +104,12 @@ class HttpParser:
         raw_line = raw_line.split(": ")
         if len(raw_line) < 2:
             return
-        raw_line[1] = "random_value_" + HttpParser._remove_special_chars_from_word(raw_line[0]).lower()
+        raw_line[1] = (
+            DefaultPlates.RANDOM_REPLACER
+            + HttpParser._remove_special_chars_from_word(
+                raw_line[0], separator=""
+            ).lower()
+        )
         return raw_line[0] + ": " + raw_line[1]
 
     def process_headers(self, host_str_repr: str) -> str or None:
@@ -112,7 +132,11 @@ class HttpParser:
                 if "set-cookie" in raw_line.lower():
                     raw_line = HttpParser._process_cookie(raw_line)
             if self.process_trash_headers:
-                if [bad_tag for bad_tag in TrashHeaders.HEADERS if bad_tag.lower() in raw_line.lower()]:
+                if [
+                    bad_tag
+                    for bad_tag in TrashHeaders.HEADERS
+                    if bad_tag.lower() in raw_line.lower()
+                ]:
                     raw_line = HttpParser._process_random_value(raw_line) or raw_line
             if self.remove_special:
                 raw_line = HttpParser._remove_special_chars_from_line(raw_line)

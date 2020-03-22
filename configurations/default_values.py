@@ -10,6 +10,15 @@ class DefaultShodanValues:
     RESULTS_PER_QUERY: int = 1000
 
 
+class DefaultPlates:
+    """
+    Default plates values
+    """
+
+    COOKIE_REPLACER: str = "cookie_value"
+    RANDOM_REPLACER: str = "random_value_"
+
+
 class DefaultValues:
     """
     Define default values
@@ -23,15 +32,25 @@ class DefaultQueries:
     Define default queries to scan with Shodan
     """
 
-    QUERIES: list = ["Apache", "Nginx", "Flask"]
+    QUERIES: list = [
+        "kibana content-length: 217",
+        'http.title:"MLflow"',
+        'http.title:"Kubeflow Central Dashboard"',
+    ]
 
 
 class TrashHeaders:
     """
-    Define headers that should be skipped from headers analysis
+    Define headers that should be replaced from headers analysis
     """
 
-    HEADERS: list = ["Expires", "Date", "Last-Modified", "ETag", "Content-Length"]  # + ["Server"]
+    HEADERS: list = [
+        "Expires",
+        "Date",
+        "Last-Modified",
+        "ETag",
+        "Content-Length",
+    ]  # + ["Server"]
 
 
 class AdditionalStopWords:

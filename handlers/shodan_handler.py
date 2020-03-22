@@ -27,12 +27,18 @@ class ShodanHandler:
         for query in queries_list:
             print(f"Get results for {query}")
             try:
-                results_generator = Shodan(api_key).search_cursor(query=query, minify=True)
+                results_generator = Shodan(api_key).search_cursor(
+                    query=query, minify=True
+                )
             except APIError as shodan_err:
                 print(f"Shodan search error, {shodan_err.value}")
                 continue
             limited_results = islice(results_generator, results_per_query)
             results.update(
-                {query: [host.get("data") for host in limited_results if host.get("data")]}
+                {
+                    query: [
+                        host.get("data") for host in limited_results if host.get("data")
+                    ]
+                }
             )
         return results

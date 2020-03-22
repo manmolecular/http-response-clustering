@@ -41,7 +41,7 @@ class CustomCluster:
             model.fit(self.matrix)
             cost.append(model.inertia_)
 
-        plt.plot(range(*k_range), cost, color='g', linewidth='0.5')
+        plt.plot(range(*k_range), cost, color="g", linewidth="0.5")
         plt.show()
 
     def make_cluster(self, display_limit: int = 20, clusters_q: int = 3,) -> None:
@@ -50,7 +50,9 @@ class CustomCluster:
         @return: None
         """
 
-        self.model = KMeans(n_clusters=clusters_q, init="k-means++", max_iter=500, n_init=100)
+        self.model = KMeans(
+            n_clusters=clusters_q, init="k-means++", max_iter=500, n_init=100
+        )
         self.model.fit(self.matrix)
 
         order_centroids = self.model.cluster_centers_.argsort()[:, ::-1]
@@ -58,7 +60,10 @@ class CustomCluster:
         for cluster_index in range(clusters_q):
             print(f"Current cluster: {cluster_index}")
             print(
-                [terms[index] for index in order_centroids[cluster_index, :display_limit]]
+                [
+                    terms[index]
+                    for index in order_centroids[cluster_index, :display_limit]
+                ]
             )
 
     def predict(self, element_to_predict: str) -> KMeans.predict:
