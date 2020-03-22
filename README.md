@@ -7,5 +7,5 @@
 ## Screenshot
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/manmolecular/http-response-clustering/master/assets/screenshot-1.jpg">
+  <img src="https://raw.githubusercontent.com/manmolecular/http-response-clustering/master/assets/screenshot-1.png">
 </p> 
