@@ -4,7 +4,7 @@ services:
   http-clustering:
     build:
       context: .
-      dockerfile: docker/Dockerfile
+      dockerfile: docker/debian/Dockerfile
     image: http-clustering/notebook:1.0
     container_name: http-clustering
     volumes:
