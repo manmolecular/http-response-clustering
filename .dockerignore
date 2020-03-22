@@ -1,0 +1,12 @@
+*
+.*
+!cluster/
+!configurations/
+!handlers/
+!helpers/
+!parsers/
+!clustering.py
+!interactive_cluster.ipynb
+!requirements.txt
+!docker/entrypoint.sh
+!docker/alpine/requirements.txt
