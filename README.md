@@ -35,11 +35,17 @@ In this case, you can try to divide all of your data into some small subgroups c
 docker-compose up
 ```
 The Jupyter notebook will be running on the `http://localhost:8888/<your-token-etc>`, follow the instructions from your terminal logs
+  
+**Note:** this repository contains 2 Dockerfiles: one is based on the Debian default python image and another one based on the Alpine python image. You can choose a preferable variant via modifying `docker-compose.yml` file:
+replace `docker/debian/Dockerfile` string in `docker-compose.yml` file with `docker/alpine/Dockerfile`, if you want to build the image on the Alpine base. 
+  
+By default, the Debian python image will be built.
 ### Run on host
+Install the requirements and you are ready to go:
 ```
 pip3 install -r requirements.txt
 ```
-You can use the Jupyter Notebook or module itself directly with `interactive_cluster.ipynb` notebook:
+After that, you can use the Jupyter Notebook or module itself directly with `interactive_cluster.ipynb` notebook:
 ```
 jupyter notebook
 ```
@@ -80,6 +86,10 @@ In two words, the format must be the following:
         "response-4"
     ]
 }
+```
+You need to create the JSON file with your data, provide a name for it (for example, `"hosts_example.json"`), put your data in the format above these lines and provide the name of your file into files handler:
+```python3
+raw_results = FilesHandler().open_results(filename="data/hosts_example.json")
 ```
 
 ## Format of the HTTP responses to analyze
