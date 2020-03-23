@@ -5,7 +5,7 @@
 [![Pull Requests](https://img.shields.io/github/issues-pr/manmolecular/http-response-clustering)](https://github.com/manmolecular/http-response-clustering/pulls)
 [![Last Commits](https://img.shields.io/github/last-commit/manmolecular/http-response-clustering)](https://github.com/manmolecular/http-response-clustering/commits/master)  
   
-:chart_with_downwards_trend: Clustering of HTTP responses using k-means++ and the elbow method 
+:chart_with_downwards_trend: Clustering of HTTP responses using k-means++ and the elbow method (PoC)
 
 ## Screenshot
 
@@ -14,12 +14,29 @@
   <p align="center"><i>A basic example of dividing HTTP responses into clusters</i></p>
 </div> 
 
+## Contents
+1. [Disclaimer](#disclaimer)
+1. [Description](#description)
+1. [Examples](#examples)
+1. [Requirements](#requirements)
+1. [Installation](#installation)
+1. [Determine the number of clusters](#determine-the-number-of-clusters)
+1. [Provide your data into clusters](#provide-your-data-into-clusters)
+1. [Format of the HTTP responses to analyze](#format-of-the-http-responses-to-analyze)
+
+
+## Disclaimer
+:construction: This work is just an early-proof-of-concept, and almost in deep WIP status. So feel free to make some issues, feature requests, and bug reports. Thanks.
+
 ## Description
 This module based on SciPy (SciKit) implementation of K-means (to be more precious, K-means++) clustering method allows you to sort different HTTP responses from various HTTP hosts into some clusters, divided by several unique features. 
   
 This can be useful when, for example, you cannot process a large amount of data from various network scanners (for example, Nmap Network Scanner, Shodan database, Censys database, etc.) or collected by yourself, because the quantity is too big and responses look almost the same. 
   
 In this case, you can try to divide all of your data into some small subgroups called clusters to find some unique features in every group.
+
+## Examples
+See [interactive_cluster.ipynb](/interactive_cluster.ipynb) notebook
 
 ## Requirements
 ### Run in docker
