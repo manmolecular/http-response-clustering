@@ -28,7 +28,6 @@ def get_hosts_shodan() -> Dict[str, list]:
     FilesHandler(results=data).write_results(filename=DefaultValues.DATA_FILE)
     return data
 
-
 def create_cluster(
     raw_results: Dict[str, list] = None
 ) -> (CustomCluster, Dict[str, list]):
@@ -52,9 +51,9 @@ def create_cluster(
     cluster = CustomCluster(prepared_results)
     cluster.prepare_matrix()
     # cluster.determine_k(k_range=(1, 10))
+    cluster.calculate_silhouette_score()
 
-    # User value from determine_k plot here
-    cluster.make_cluster(clusters_q=5)
+    cluster.make_cluster()
 
     return cluster, raw_results
 
