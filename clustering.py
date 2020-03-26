@@ -7,14 +7,13 @@ class CustomConfiguration:
         "process_cookie": True,
         "process_trash_headers": True,
         "remove_digits": True,
-        "remove_special": True
+        "remove_special": True,
     }
 
 
 if __name__ == "__main__":
     hosts_cluster = ClusteringAPI(
-        default_range=(1, 20),
-        http_parser_config=CustomConfiguration.HTTP_PARSER_CONFIG
+        default_range=(1, 20), http_parser_config=CustomConfiguration.HTTP_PARSER_CONFIG
     )
     hosts_cluster.prepare_clusters(input_file="data/hosts_aisec.json")
     # hosts_cluster.create_plot()
