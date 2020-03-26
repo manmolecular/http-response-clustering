@@ -2,7 +2,7 @@
 from random import sample
 from typing import Dict, List, Tuple
 
-from parsers.http_parser import HttpParser
+from cluster.parsers.http_parser import HttpParser
 
 
 class Tools:

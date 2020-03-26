@@ -6,7 +6,7 @@ from sklearn.feature_extraction import text
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics import silhouette_score
 
-from configurations.default_values import AdditionalStopWords
+from cluster.configurations.default_values import AdditionalStopWords
 
 
 class CustomCluster:
@@ -40,7 +40,9 @@ class CustomCluster:
         )
         self.matrix = self.vectorizer.fit_transform(flat_response_list)
 
-    def calculate_silhouette_score(self, best_score: int = -1, k_range: Tuple[int, int] = (2, 20)) -> int:
+    def calculate_silhouette_score(
+        self, best_score: int = -1, k_range: Tuple[int, int] = (2, 20)
+    ) -> int:
         """
         Calculate the best number of clusters via Silhouette score method
         @param best_score: best score to start from
@@ -52,7 +54,14 @@ class CustomCluster:
             _temp_k_range[0] = 2
             k_range = tuple(_temp_k_range)
         for k in range(*k_range):
-            model = KMeans(n_clusters=k, init="k-means++", max_iter=500, n_init=100, n_jobs=-1, algorithm="full")
+            model = KMeans(
+                n_clusters=k,
+                init="k-means++",
+                max_iter=500,
+                n_init=100,
+                n_jobs=-1,
+                algorithm="full",
+            )
             model.fit(self.matrix)
             labels = model.predict(self.matrix)
             score = silhouette_score(model.transform(self.matrix), labels)
@@ -60,7 +69,9 @@ class CustomCluster:
             if score > best_score:
                 self.best_k = k
                 best_score = score
-            print(f"Current cluster: {k}, silhouette score: {score} (current best K: {self.best_k})")
+            print(
+                f"Current cluster: {k}, silhouette score: {score} (current best K: {self.best_k})"
+            )
         print(f"The best K number is: {self.best_k}")
         return self.best_k
 
@@ -72,14 +83,16 @@ class CustomCluster:
         cost = []
         for i in range(*k_range):
             print(f"Calculate results for {i} clusters")
-            model = KMeans(n_clusters=i, init="k-means++", max_iter=500, n_init=100, n_jobs=-1)
+            model = KMeans(
+                n_clusters=i, init="k-means++", max_iter=500, n_init=100, n_jobs=-1
+            )
             model.fit(self.matrix)
             cost.append(model.inertia_)
 
         plt.plot(range(*k_range), cost, color="g", linewidth="0.5")
         plt.show()
 
-    def make_cluster(self, display_limit: int = 20, clusters_q: int = None) -> None:
+    def make_clusters(self, display_limit: int = 20, clusters_q: int = None) -> None:
         """
         Clusterize all of the results
         @return: None

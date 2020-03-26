@@ -5,7 +5,7 @@ from typing import List, Dict
 
 from shodan import Shodan, APIError
 
-from configurations.default_values import DefaultShodanValues, DefaultQueries
+from cluster.configurations.default_values import DefaultShodanValues, DefaultQueries
 
 
 class ShodanHandler:

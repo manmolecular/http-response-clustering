@@ -24,7 +24,7 @@ class DefaultValues:
     Define default values
     """
 
-    DATA_FILE: str = "data/hosts_servers.json"
+    DATA_FILE: str = "data/hosts_aisec.json"
 
 
 class DefaultQueries:

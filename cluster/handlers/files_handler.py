@@ -5,7 +5,7 @@ from typing import Dict, Any
 from pathlib import Path
 from datetime import datetime
 
-from configurations.default_values import DefaultValues as FilesDefaultValues
+from cluster.configurations.default_values import DefaultValues as FilesDefaultValues
 
 
 class FilesHandler:
@@ -36,7 +36,12 @@ class FilesHandler:
         self.save_time = save_time
         return save_time
 
-    def write_json_file(self, filename: str or None = None, data: Any = None, q_clusters: int or str = "unknown") -> None:
+    def write_json_file(
+        self,
+        filename: str or None = None,
+        data: Any = None,
+        q_clusters: int or str = "unknown",
+    ) -> None:
         """
         Write results to JSON file
         @param filename: filename of file to write data into
@@ -45,7 +50,9 @@ class FilesHandler:
         @return: None
         """
         cluster_subdir = Path(self.input_filename).stem
-        path = Path(f"results/{cluster_subdir}/{q_clusters}_clusters_{self.save_time}/{filename}")
+        path = Path(
+            f"results/{cluster_subdir}/{q_clusters}_clusters_{self.save_time}/{filename}"
+        )
         path.parent.mkdir(parents=True, exist_ok=True)
         with open(file=path, mode="w") as output_file:
             dump(obj=data or self.data, fp=output_file, indent=4)
