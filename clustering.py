@@ -18,6 +18,8 @@ if __name__ == "__main__":
     )
     hosts_cluster.prepare_clusters(input_file="data/hosts_aisec.json")
     # hosts_cluster.create_plot()
+    hosts_cluster.calculate_silhouette_score()
+    hosts_cluster.calculate_clusters()
     hosts_cluster.predict_clusters()
     hosts_cluster.show_example_clusters()
     hosts_cluster.show_example_samples()
