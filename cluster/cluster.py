@@ -10,12 +10,20 @@ from configurations.default_values import AdditionalStopWords
 
 
 class CustomCluster:
-    def __init__(self, input_data: Dict[str, list]):
+    def __init__(self, input_data: Dict[str, list] = None):
         self.input_data = input_data
         self.matrix: text.TfidfTransformer.transform or None = None
         self.vectorizer: text.TfidfVectorizer or None = None
         self.model: KMeans or None = None
-        self.best_k: int or None = None
+        self.best_k: int = 1
+
+    def set_input_data(self, input_data: Dict[str, list]) -> None:
+        """
+        Set or update the input data which is cluster based on
+        @param input_data: input data to clusterize
+        @return: None
+        """
+        self.input_data = input_data
 
     def prepare_matrix(self) -> None:
         """
@@ -32,15 +40,17 @@ class CustomCluster:
         )
         self.matrix = self.vectorizer.fit_transform(flat_response_list)
 
-    def calculate_silhouette_score(self, k_range: Tuple[int, int] = (2, 10)) -> int:
+    def calculate_silhouette_score(self, best_score: int = -1, k_range: Tuple[int, int] = (2, 20)) -> int:
         """
         Calculate the best number of clusters via Silhouette score method
+        @param best_score: best score to start from
         @param k_range: possible range of cluster numbers
         @return: best quantity of clusters
         """
-        best_k = 1
-        best_score = -1
-
+        if k_range[0] < 2:
+            _temp_k_range = list(k_range)
+            _temp_k_range[0] = 2
+            k_range = tuple(_temp_k_range)
         for k in range(*k_range):
             model = KMeans(n_clusters=k, init="k-means++", max_iter=500, n_init=100, n_jobs=-1, algorithm="full")
             model.fit(self.matrix)
@@ -49,11 +59,10 @@ class CustomCluster:
 
             print(f"Current cluster: {k}, silhouette score: {score}")
             if score > best_score:
-                best_k = k
+                self.best_k = k
                 best_score = score
-        print(f"The best K number is: {best_k}")
-        self.best_k = best_k
-        return best_k
+        print(f"The best K number is: {self.best_k}")
+        return self.best_k
 
     def determine_k(self, k_range: Tuple[int, int] = (1, 10)) -> plt.show:
         """
