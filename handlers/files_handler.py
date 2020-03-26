@@ -11,10 +11,10 @@ from configurations.default_values import DefaultValues as FilesDefaultValues
 class FilesHandler:
     def __init__(
         self,
-        filename: str = FilesDefaultValues.DATA_FILE,
+        input_filename: str = FilesDefaultValues.DATA_FILE,
         data: Dict[str, str] or None = None,
     ):
-        self.filename = filename
+        self.input_filename = input_filename
         self.data = data
         self.save_time = self.update_save_time()
 
@@ -24,7 +24,7 @@ class FilesHandler:
         @param filename: name of file to open
         @return: loaded JSON data from file
         """
-        with open(file=filename or self.filename, mode="r") as input_data:
+        with open(file=filename or self.input_filename, mode="r") as input_data:
             return load(fp=input_data)
 
     def update_save_time(self) -> str:
@@ -44,7 +44,8 @@ class FilesHandler:
         @param q_clusters: quantity of clusters
         @return: None
         """
-        path = Path(f"results/{q_clusters}_clusters_{self.save_time}/{filename or self.filename}")
+        cluster_subdir = Path(self.input_filename).stem
+        path = Path(f"results/{cluster_subdir}/{q_clusters}_clusters_{self.save_time}/{filename}")
         path.parent.mkdir(parents=True, exist_ok=True)
         with open(file=path, mode="w") as output_file:
             dump(obj=data or self.data, fp=output_file, indent=4)

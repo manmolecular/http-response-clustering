@@ -1,0 +1,10 @@
+[
+    {
+        "class_name": "kibana content-length: 217",
+        "data": "HTTP/1.1 200 OK\r\nkbn-name: kibana\r\nkbn-version: 5.0.0-alpha5\r\ncache-control: no-cache\r\ncontent-type: text/html\r\ncontent-length: 217\r\naccept-ranges: bytes\r\nDate: Tue, 17 Mar 2020 13:12:45 GMT\r\nConnection: keep-alive\r\n\r\n"
+    },
+    {
+        "class_name": "kibana content-length: 217",
+        "data": "HTTP/1.1 200 OK\r\nkbn-name: kibana\r\nkbn-version: 5.0.0-alpha5\r\ncache-control: no-cache\r\ncontent-type: text/html\r\ncontent-length: 217\r\naccept-ranges: bytes\r\nDate: Tue, 17 Mar 2020 00:12:11 GMT\r\nConnection: keep-alive\r\n\r\n"
+    }
+]

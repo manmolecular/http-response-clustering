@@ -1,0 +1,38 @@
+[
+    {
+        "class_name": "Nginx",
+        "data": "HTTP/1.1 502 Bad Gateway\r\nServer: nginx\r\nDate: Thu, 05 Mar 2020 16:53:42 GMT\r\nContent-Type: text/html\r\nContent-Length: 568\r\nConnection: keep-alive\r\n\r\n"
+    },
+    {
+        "class_name": "Nginx",
+        "data": "HTTP/1.1 502 Bad Gateway\r\nServer: nginx\r\nDate: Thu, 05 Mar 2020 16:54:32 GMT\r\nContent-Type: text/html\r\nContent-Length: 568\r\nConnection: keep-alive\r\n\r\n"
+    },
+    {
+        "class_name": "Nginx",
+        "data": "HTTP/1.1 502 Bad Gateway\r\nServer: nginx\r\nDate: Thu, 05 Mar 2020 16:53:18 GMT\r\nContent-Type: text/html\r\nContent-Length: 568\r\nConnection: keep-alive\r\n\r\n"
+    },
+    {
+        "class_name": "Nginx",
+        "data": "HTTP/1.1 502 Bad Gateway\r\nServer: nginx\r\nDate: Thu, 05 Mar 2020 16:57:25 GMT\r\nContent-Type: text/html\r\nContent-Length: 568\r\nConnection: keep-alive\r\n\r\n"
+    },
+    {
+        "class_name": "Nginx",
+        "data": "HTTP/1.1 502 Bad Gateway\r\nServer: nginx\r\nDate: Thu, 05 Mar 2020 16:58:14 GMT\r\nContent-Type: text/html\r\nContent-Length: 568\r\nConnection: keep-alive\r\n\r\n"
+    },
+    {
+        "class_name": "Nginx",
+        "data": "HTTP/1.1 502 Bad Gateway\r\nServer: nginx\r\nDate: Thu, 05 Mar 2020 16:54:36 GMT\r\nContent-Type: text/html\r\nContent-Length: 568\r\nConnection: keep-alive\r\n\r\n"
+    },
+    {
+        "class_name": "Nginx",
+        "data": "HTTP/1.1 502 Bad Gateway\r\nServer: nginx\r\nDate: Thu, 05 Mar 2020 16:56:43 GMT\r\nContent-Type: text/html\r\nContent-Length: 568\r\nConnection: keep-alive\r\n\r\n"
+    },
+    {
+        "class_name": "Nginx",
+        "data": "HTTP/1.1 502 Bad Gateway\r\nServer: nginx\r\nDate: Thu, 05 Mar 2020 16:57:33 GMT\r\nContent-Type: text/html\r\nContent-Length: 552\r\nConnection: keep-alive\r\n\r\n"
+    },
+    {
+        "class_name": "Nginx",
+        "data": "HTTP/1.1 502 Bad Gateway\r\nServer: nginx\r\nDate: Thu, 05 Mar 2020 16:53:31 GMT\r\nContent-Type: text/html\r\nContent-Length: 552\r\nConnection: keep-alive\r\n\r\n"
+    }
+]

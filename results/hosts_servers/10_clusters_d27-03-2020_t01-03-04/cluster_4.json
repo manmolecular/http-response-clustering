@@ -1,0 +1,106 @@
+[
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 200 OK\r\nDate: Thu, 05 Mar 2020 16:56:43 GMT\r\nContent-Type: text/html\r\nContent-Length: 3892\r\nConnection: keep-alive\r\nServer: Apache\r\nLast-Modified: Sun, 22 Dec 2013 17:46:36 GMT\r\nETag: \"f34-4ee2317b75700\"\r\nAccept-Ranges: bytes\r\n\r\n"
+    },
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 200 OK\r\nDate: Thu, 05 Mar 2020 16:55:13 GMT\r\nServer: Apache/2.4.29 (Ubuntu)\r\nLast-Modified: Tue, 14 Jan 2020 06:22:49 GMT\r\nETag: \"0-59c139f00f6db\"\r\nAccept-Ranges: bytes\r\nContent-Length: 0\r\nContent-Type: text/html\r\n\r\n"
+    },
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 987\r\nConnection: keep-alive\r\nKeep-Alive: timeout=15\r\nDate: Thu, 05 Mar 2020 16:56:43 GMT\r\nServer: Apache\r\nLast-Modified: Tue, 16 Jul 2019 12:58:11 GMT\r\nETag: \"3db-58dcbedda10ed\"\r\nAccept-Ranges: bytes\r\n\r\n"
+    },
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 200 OK\r\nDate: Thu, 05 Mar 2020 16:54:03 GMT\r\nServer: Apache\r\nLast-Modified: Fri, 15 Apr 2005 08:24:11 GMT\r\nVary: Accept-Encoding\r\nContent-Type: text/html\r\nX-Varnish: 324607598 319725855\r\nAge: 159\r\nVia: 1.1 varnish (Varnish/6.3)\r\nETag: W/\"1d3-3f4c55de2a0c0-gzip\"\r\nAccept-Ranges: bytes\r\nContent-Length: 467\r\nConnection: keep-alive\r\n\r\n"
+    },
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 200 OK\r\nDate: Thu, 05 Mar 2020 16:56:43 GMT\r\nServer: Apache/2.4.41 (Unix)\r\nLast-Modified: Tue, 26 Apr 2016 19:58:59 GMT\r\nETag: \"d94-53168b950e6c0\"\r\nAccept-Ranges: bytes\r\nContent-Length: 3476\r\nContent-Type: text/html\r\n\r\n"
+    },
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 200 OK\r\nDate: Thu, 05 Mar 2020 16:56:43 GMT\r\nServer: Apache/2.2.22 (Ubuntu)\r\nLast-Modified: Wed, 21 Oct 2009 20:16:19 GMT\r\nETag: \"90eaf-119b-47677a6d4eac0\"\r\nAccept-Ranges: bytes\r\nContent-Length: 4507\r\nVary: Accept-Encoding\r\nConnection: close\r\nContent-Type: text/html\r\n\r\n"
+    },
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 200 OK\r\nDate: Thu, 05 Mar 2020 16:56:43 GMT\r\nContent-Type: text/html\r\nContent-Length: 7222\r\nConnection: keep-alive\r\nServer: Apache\r\nLast-Modified: Tue, 23 Mar 2010 09:27:17 GMT\r\nETag: \"1c36-482746b6d8740\"\r\nAccept-Ranges: bytes\r\n\r\n"
+    },
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 200 OK\r\nDate: Thu, 05 Mar 2020 16:56:43 GMT\r\nContent-Type: text/html\r\nContent-Length: 1204\r\nConnection: keep-alive\r\nServer: Apache\r\nLast-Modified: Sat, 11 Apr 2009 11:49:58 GMT\r\nETag: \"4b4-46746149c4580\"\r\nAccept-Ranges: bytes\r\n\r\n"
+    },
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 200 OK\r\nDate: Thu, 05 Mar 2020 16:56:47 GMT\r\nServer: Apache/2.4.29 (Ubuntu)\r\nLast-Modified: Tue, 14 Jan 2020 06:22:49 GMT\r\nETag: \"0-59c139f00e0e7\"\r\nAccept-Ranges: bytes\r\nContent-Length: 0\r\nContent-Type: text/html\r\n\r\n"
+    },
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 200 OK\r\nDate: Thu, 05 Mar 2020 16:56:43 GMT\r\nServer: Apache/2\r\nLast-Modified: Sat, 13 Oct 2012 12:59:23 GMT\r\nETag: \"23f0-4cbf05f97d7b0\"\r\nAccept-Ranges: bytes\r\nContent-Length: 9200\r\nVary: Accept-Encoding,User-Agent\r\nContent-Type: text/html\r\n\r\n"
+    },
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 200 OK\r\nDate: Thu, 05 Mar 2020 16:56:43 GMT\r\nServer: Apache/2.4.41 (Unix)\r\nLast-Modified: Fri, 15 Aug 2014 07:53:32 GMT\r\nETag: \"106f-500a6514b1700\"\r\nAccept-Ranges: bytes\r\nContent-Length: 4207\r\nContent-Type: text/html\r\n\r\n"
+    },
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 200 OK\r\nDate: Thu, 05 Mar 2020 16:56:43 GMT\r\nServer: Apache\r\nLast-Modified: Fri, 17 Oct 2008 14:47:53 GMT\r\nVary: Accept-Encoding\r\nContent-Type: text/html\r\nX-Varnish: 166539487\r\nAge: 0\r\nVia: 1.1 varnish (Varnish/6.3)\r\nETag: W/\"d19-459740cd1d840-gzip\"\r\nAccept-Ranges: bytes\r\nContent-Length: 3353\r\nConnection: keep-alive\r\n\r\n"
+    },
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 200 OK\r\nDate: Thu, 05 Mar 2020 16:57:22 GMT\r\nServer: Apache\r\nLast-Modified: Tue, 27 Nov 2018 01:33:14 GMT\r\nETag: \"e1-57b9b6ee1ea80\"\r\nAccept-Ranges: bytes\r\nContent-Length: 225\r\nVary: Accept-Encoding\r\nContent-Type: text/html\r\nContent-Language: en\r\n\r\n"
+    },
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 200 OK\r\nDate: Thu, 05 Mar 2020 16:56:43 GMT\r\nServer: Apache/2.4.25 (Debian)\r\nLast-Modified: Mon, 28 Mar 2016 08:42:37 GMT\r\nETag: \"363-52f17e50d0dda\"\r\nAccept-Ranges: bytes\r\nContent-Length: 867\r\nVary: Accept-Encoding\r\nContent-Type: text/html\r\n\r\n"
+    },
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 200 OK\r\nDate: Thu, 05 Mar 2020 16:56:02 GMT\r\nServer: Apache/2.4.7 (Ubuntu)\r\nLast-Modified: Tue, 28 Jun 2016 19:52:27 GMT\r\nETag: \"2cf6-5365bf9fa9691\"\r\nAccept-Ranges: bytes\r\nContent-Length: 11510\r\nVary: Accept-Encoding\r\nContent-Type: text/html\r\n\r\n"
+    },
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 200 OK\r\nDate: Thu, 05 Mar 2020 16:56:43 GMT\r\nContent-Type: text/html\r\nContent-Length: 466\r\nConnection: keep-alive\r\nServer: Apache\r\nLast-Modified: Thu, 11 Sep 2014 14:33:00 GMT\r\nETag: \"1d2-502cb0b9cdf00\"\r\nAccept-Ranges: bytes\r\n\r\n"
+    },
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 200 OK\r\nDate: Thu, 05 Mar 2020 16:57:55 GMT\r\nServer: Apache/2.4.29 (Ubuntu)\r\nLast-Modified: Tue, 14 Jan 2020 06:22:49 GMT\r\nETag: \"0-59c139f00f9f5\"\r\nAccept-Ranges: bytes\r\nContent-Length: 0\r\nContent-Type: text/html\r\n\r\n"
+    },
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 33133\r\nConnection: keep-alive\r\nKeep-Alive: timeout=15\r\nDate: Thu, 05 Mar 2020 16:56:43 GMT\r\nServer: Apache\r\nLast-Modified: Mon, 11 Feb 2019 19:40:06 GMT\r\nETag: \"816d-581a379c52ae7\"\r\nAccept-Ranges: bytes\r\n\r\n"
+    },
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 229\r\nConnection: keep-alive\r\nKeep-Alive: timeout=15\r\nDate: Thu, 05 Mar 2020 16:57:04 GMT\r\nServer: Apache\r\nLast-Modified: Wed, 08 Jan 2014 16:23:51 GMT\r\nETag: \"e5-4ef77eb14d3c0\"\r\nAccept-Ranges: bytes\r\n\r\n"
+    },
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 229\r\nConnection: keep-alive\r\nKeep-Alive: timeout=15\r\nDate: Thu, 05 Mar 2020 16:56:43 GMT\r\nServer: Apache\r\nLast-Modified: Mon, 30 Jan 2012 15:08:20 GMT\r\nETag: \"e5-4b7c037866100\"\r\nAccept-Ranges: bytes\r\n\r\n"
+    },
+    {
+        "class_name": "Nginx",
+        "data": "HTTP/1.1 200 OK\r\nServer: nginx\r\nDate: Thu, 05 Mar 2020 16:55:56 GMT\r\nContent-Type: text/html\r\nContent-Length: 3460\r\nLast-Modified: Sat, 27 Jan 2018 09:44:04 GMT\r\nConnection: keep-alive\r\nVary: Accept-Encoding\r\nETag: \"5a6c49e4-d84\"\r\nAccept-Ranges: bytes\r\n\r\n"
+    },
+    {
+        "class_name": "Nginx",
+        "data": "HTTP/1.1 200 OK\r\nServer: nginx\r\nDate: Thu, 05 Mar 2020 16:56:43 GMT\r\nContent-Type: text/html\r\nContent-Length: 1326\r\nLast-Modified: Wed, 26 Apr 2017 08:03:47 GMT\r\nConnection: keep-alive\r\nVary: Accept-Encoding\r\nETag: \"59005463-52e\"\r\nAccept-Ranges: bytes\r\n\r\n"
+    },
+    {
+        "class_name": "Nginx",
+        "data": "HTTP/1.1 200 OK\r\nServer: nginx\r\nDate: Thu, 05 Mar 2020 16:53:43 GMT\r\nContent-Type: text/html\r\nContent-Length: 3460\r\nLast-Modified: Sat, 27 Jan 2018 09:44:04 GMT\r\nConnection: keep-alive\r\nVary: Accept-Encoding\r\nETag: \"5a6c49e4-d84\"\r\nAccept-Ranges: bytes\r\n\r\n"
+    },
+    {
+        "class_name": "Nginx",
+        "data": "HTTP/1.1 200 OK\r\nServer: nginx\r\nDate: Thu, 05 Mar 2020 16:57:54 GMT\r\nContent-Type: text/html\r\nContent-Length: 3460\r\nLast-Modified: Sat, 27 Jan 2018 09:44:04 GMT\r\nConnection: keep-alive\r\nVary: Accept-Encoding\r\nETag: \"5a6c49e4-d84\"\r\nAccept-Ranges: bytes\r\n\r\n"
+    },
+    {
+        "class_name": "Nginx",
+        "data": "HTTP/1.1 200 OK\r\nServer: nginx/1.4.6 (Ubuntu)\r\nDate: Thu, 05 Mar 2020 16:56:43 GMT\r\nContent-Type: text/html\r\nContent-Length: 11510\r\nConnection: keep-alive\r\nLast-Modified: Fri, 01 Nov 2019 11:51:51 GMT\r\nETag: \"2cf6-59647976e83c0\"\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\n\r\n"
+    },
+    {
+        "class_name": "Nginx",
+        "data": "HTTP/1.1 200 OK\r\nServer: nginx/1.10.3\r\nDate: Thu, 05 Mar 2020 16:57:55 GMT\r\nContent-Type: text/html\r\nContent-Length: 119\r\nLast-Modified: Mon, 27 May 2019 11:55:26 GMT\r\nConnection: keep-alive\r\nETag: \"5cebd02e-77\"\r\nAccept-Ranges: bytes\r\n\r\n"
+    }
+]

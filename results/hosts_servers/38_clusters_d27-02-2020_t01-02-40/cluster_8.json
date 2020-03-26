@@ -1,0 +1,10 @@
+[
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 200 OK\r\nDate: Thu, 05 Mar 2020 16:56:43 GMT\r\nServer: Apache/2.4.41 (Unix)\r\nContent-Length: 4508\r\nContent-Type: text/html\r\n\r\n"
+    },
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 200 OK\r\nDate: Thu, 05 Mar 2020 16:56:43 GMT\r\nServer: Apache/2.4.41 (Unix)\r\nLast-Modified: Fri, 15 Aug 2014 07:53:32 GMT\r\nETag: \"106f-500a6514b1700\"\r\nAccept-Ranges: bytes\r\nContent-Length: 4207\r\nContent-Type: text/html\r\n\r\n"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 404 Not Found\r\nContent-Type: text/html\r\nContent-Length: 823\r\nConnection: keep-alive\r\nKeep-Alive: timeout=15\r\nDate: Thu, 05 Mar 2020 16:56:43 GMT\r\nServer: Apache\r\n\r\n"
+    },
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 404 Not Found\r\nContent-Type: text/html\r\nContent-Length: 631\r\nConnection: keep-alive\r\nKeep-Alive: timeout=15\r\nDate: Thu, 05 Mar 2020 16:56:43 GMT\r\nServer: Apache\r\n\r\n"
+    },
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 403 Forbidden\r\nContent-Type: text/html\r\nContent-Length: 1364\r\nConnection: keep-alive\r\nKeep-Alive: timeout=15\r\nDate: Thu, 05 Mar 2020 16:56:43 GMT\r\nServer: Apache\r\nX-Frame-Options: deny\r\n\r\n"
+    },
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 404 Not Found\r\nContent-Type: text/html\r\nContent-Length: 1364\r\nConnection: keep-alive\r\nKeep-Alive: timeout=15\r\nDate: Thu, 05 Mar 2020 16:56:43 GMT\r\nServer: Apache\r\nX-Frame-Options: deny\r\n\r\n"
+    },
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 404 Not Found\r\nDate: Thu, 05 Mar 2020 16:56:43 GMT\r\nContent-Type: text/plain; charset=UTF-8\r\nContent-Length: 57\r\nConnection: keep-alive\r\nKeep-Alive: timeout=60\r\nServer: Apache\r\nVary: Host\r\nStatus: 404 Not Found\r\nX-Generated-Timestamp: t=1583427403568265\r\n\r\n"
+    },
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 403 Forbidden\r\nContent-Type: text/html\r\nContent-Length: 626\r\nConnection: keep-alive\r\nKeep-Alive: timeout=15\r\nDate: Thu, 05 Mar 2020 16:56:43 GMT\r\nServer: Apache\r\n\r\n"
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 503 Service Unavailable\r\nDate: Thu, 05 Mar 2020 16:56:43 GMT\r\nServer: Apache\r\nX-Onecom-Suspended: true\r\nContent-Length: 5280\r\nContent-Type: text/html\r\nX-Varnish: 1063112745\r\nAge: 0\r\nVia: 1.1 varnish (Varnish/6.3)\r\nConnection: keep-alive\r\n\r\n"
+    },
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 200 OK\r\nDate: Thu, 05 Mar 2020 16:56:43 GMT\r\nServer: Apache\r\nLast-Modified: Fri, 17 Oct 2008 14:47:53 GMT\r\nVary: Accept-Encoding\r\nContent-Type: text/html\r\nX-Varnish: 166539487\r\nAge: 0\r\nVia: 1.1 varnish (Varnish/6.3)\r\nETag: W/\"d19-459740cd1d840-gzip\"\r\nAccept-Ranges: bytes\r\nContent-Length: 3353\r\nConnection: keep-alive\r\n\r\n"
+    }
+]

@@ -57,10 +57,10 @@ class CustomCluster:
             labels = model.predict(self.matrix)
             score = silhouette_score(model.transform(self.matrix), labels)
 
-            print(f"Current cluster: {k}, silhouette score: {score}")
             if score > best_score:
                 self.best_k = k
                 best_score = score
+            print(f"Current cluster: {k}, silhouette score: {score} (current best K: {self.best_k})")
         print(f"The best K number is: {self.best_k}")
         return self.best_k
 

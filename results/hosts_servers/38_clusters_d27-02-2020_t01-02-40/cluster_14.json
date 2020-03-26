@@ -1,0 +1,10 @@
+[
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nKeep-Alive: timeout=15\r\nDate: Thu, 05 Mar 2020 16:56:43 GMT\r\nServer: Apache\r\nX-Powered-By: PHP/5.4.45\r\n\r\n"
+    },
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 200 OK\r\nContent-Type: text/html; charset=UTF-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nKeep-Alive: timeout=15\r\nDate: Thu, 05 Mar 2020 16:56:43 GMT\r\nServer: Apache\r\nX-Powered-By: PHP/7.2.28\r\n\r\n"
+    }
+]

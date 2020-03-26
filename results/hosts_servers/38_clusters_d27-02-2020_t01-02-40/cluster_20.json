@@ -1,0 +1,10 @@
+[
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 200 OK\r\nDate: Thu, 05 Mar 2020 16:46:05 GMT\r\nServer: Apache\r\nContent-Location: default.da.shtml\r\nVary: negotiate,accept-language\r\nTCN: choice\r\nContent-Type: text/html\r\nContent-Language: da\r\nX-Varnish: 206603238 194514838\r\nAge: 638\r\nVia: 1.1 varnish (Varnish/6.3)\r\nAccept-Ranges: bytes\r\nContent-Length: 10063\r\nConnection: keep-alive\r\n\r\n"
+    },
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 200 OK\r\nDate: Thu, 05 Mar 2020 16:56:43 GMT\r\nServer: Apache\r\nContent-Location: default.da.shtml\r\nVary: negotiate,accept-language\r\nTCN: choice\r\nContent-Type: text/html\r\nContent-Language: da\r\nX-Varnish: 73731538\r\nAge: 0\r\nVia: 1.1 varnish (Varnish/6.3)\r\nAccept-Ranges: bytes\r\nContent-Length: 10065\r\nConnection: keep-alive\r\n\r\n"
+    }
+]

@@ -120,7 +120,7 @@ class HttpParser:
         @return: raw headers as a string
         """
         if "HTTP/".lower() not in host_str_repr.lower():
-            return
+            return ""
         host_data = host_str_repr.replace("\\r\\n", "\r\n")
         raw_lines = host_data.splitlines()
         if len(raw_lines) == 1:

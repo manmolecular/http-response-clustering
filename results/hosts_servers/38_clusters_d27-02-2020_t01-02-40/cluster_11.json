@@ -1,0 +1,30 @@
+[
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 200 OK\r\nDate: Thu, 05 Mar 2020 16:57:22 GMT\r\nServer: Apache\r\nLast-Modified: Tue, 27 Nov 2018 01:33:14 GMT\r\nETag: \"e1-57b9b6ee1ea80\"\r\nAccept-Ranges: bytes\r\nContent-Length: 225\r\nVary: Accept-Encoding\r\nContent-Type: text/html\r\nContent-Language: en\r\n\r\n"
+    },
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 200 OK\r\nDate: Thu, 05 Mar 2020 16:56:43 GMT\r\nServer: Apache/2.4.25 (Debian)\r\nLast-Modified: Mon, 28 Mar 2016 08:42:37 GMT\r\nETag: \"363-52f17e50d0dda\"\r\nAccept-Ranges: bytes\r\nContent-Length: 867\r\nVary: Accept-Encoding\r\nContent-Type: text/html\r\n\r\n"
+    },
+    {
+        "class_name": "Nginx",
+        "data": "HTTP/1.1 200 OK\r\nServer: nginx\r\nDate: Thu, 05 Mar 2020 16:55:56 GMT\r\nContent-Type: text/html\r\nContent-Length: 3460\r\nLast-Modified: Sat, 27 Jan 2018 09:44:04 GMT\r\nConnection: keep-alive\r\nVary: Accept-Encoding\r\nETag: \"5a6c49e4-d84\"\r\nAccept-Ranges: bytes\r\n\r\n"
+    },
+    {
+        "class_name": "Nginx",
+        "data": "HTTP/1.1 200 OK\r\nServer: nginx\r\nDate: Thu, 05 Mar 2020 16:56:43 GMT\r\nContent-Type: text/html\r\nContent-Length: 1326\r\nLast-Modified: Wed, 26 Apr 2017 08:03:47 GMT\r\nConnection: keep-alive\r\nVary: Accept-Encoding\r\nETag: \"59005463-52e\"\r\nAccept-Ranges: bytes\r\n\r\n"
+    },
+    {
+        "class_name": "Nginx",
+        "data": "HTTP/1.1 200 OK\r\nServer: nginx\r\nDate: Thu, 05 Mar 2020 16:53:43 GMT\r\nContent-Type: text/html\r\nContent-Length: 3460\r\nLast-Modified: Sat, 27 Jan 2018 09:44:04 GMT\r\nConnection: keep-alive\r\nVary: Accept-Encoding\r\nETag: \"5a6c49e4-d84\"\r\nAccept-Ranges: bytes\r\n\r\n"
+    },
+    {
+        "class_name": "Nginx",
+        "data": "HTTP/1.1 200 OK\r\nServer: nginx\r\nDate: Thu, 05 Mar 2020 16:57:54 GMT\r\nContent-Type: text/html\r\nContent-Length: 3460\r\nLast-Modified: Sat, 27 Jan 2018 09:44:04 GMT\r\nConnection: keep-alive\r\nVary: Accept-Encoding\r\nETag: \"5a6c49e4-d84\"\r\nAccept-Ranges: bytes\r\n\r\n"
+    },
+    {
+        "class_name": "Nginx",
+        "data": "HTTP/1.1 200 OK\r\nServer: nginx/1.4.6 (Ubuntu)\r\nDate: Thu, 05 Mar 2020 16:56:43 GMT\r\nContent-Type: text/html\r\nContent-Length: 11510\r\nConnection: keep-alive\r\nLast-Modified: Fri, 01 Nov 2019 11:51:51 GMT\r\nETag: \"2cf6-59647976e83c0\"\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\n\r\n"
+    }
+]

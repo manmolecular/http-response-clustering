@@ -1,0 +1,94 @@
+[
+    {
+        "class_name": "kibana content-length: 217",
+        "data": "HTTP/1.1 200 OK\r\nServer: nginx/1.14.0\r\nDate: Thu, 19 Mar 2020 13:03:48 GMT\r\nContent-Type: text/html; charset=utf-8\r\nContent-Length: 217\r\nConnection: keep-alive\r\nkbn-name: kibana\r\nkbn-version: 5.6.11\r\ncache-control: no-cache\r\naccept-ranges: bytes\r\nvary: accept-encoding\r\n\r\n"
+    },
+    {
+        "class_name": "kibana content-length: 217",
+        "data": "HTTP/1.1 200 OK\r\nServer: nginx/1.16.1\r\nDate: Thu, 19 Mar 2020 11:33:21 GMT\r\nContent-Type: text/html; charset=utf-8\r\nContent-Length: 217\r\nConnection: keep-alive\r\nkbn-name: kibana\r\nkbn-version: 6.1.4-1\r\nvary: origin,accept-encoding\r\ncache-control: no-cache\r\naccept-ranges: bytes\r\n\r\n"
+    },
+    {
+        "class_name": "kibana content-length: 217",
+        "data": "HTTP/1.1 200 OK\r\nServer: nginx/1.10.2\r\nDate: Thu, 19 Mar 2020 10:02:59 GMT\r\nContent-Type: text/html; charset=utf-8\r\nContent-Length: 217\r\nConnection: keep-alive\r\nkbn-name: kibana\r\nkbn-version: 5.1.2\r\ncache-control: no-cache\r\naccept-ranges: bytes\r\nvary: accept-encoding\r\n\r\n"
+    },
+    {
+        "class_name": "kibana content-length: 217",
+        "data": "HTTP/1.1 200 OK\r\nserver: nginx/1.9.4\r\ndate: Thu, 19 Mar 2020 10:28:25 GMT\r\ncontent-type: text/html; charset=utf-8\r\ncontent-length: 217\r\nkbn-name: kibana\r\nkbn-xpack-sig: 6fb037095b65b6b3811b2209e8613075\r\ncache-control: no-cache\r\naccept-ranges: bytes\r\nvary: accept-encoding\r\n\r\n"
+    },
+    {
+        "class_name": "kibana content-length: 217",
+        "data": "HTTP/1.1 200 OK\r\nServer: nginx/1.12.1\r\nDate: Thu, 19 Mar 2020 09:10:30 GMT\r\nContent-Type: text/html; charset=utf-8\r\nContent-Length: 217\r\nConnection: keep-alive\r\nkbn-name: kibana\r\nkbn-version: 6.1.2\r\ncache-control: no-cache\r\naccept-ranges: bytes\r\nvary: accept-encoding\r\n\r\n"
+    },
+    {
+        "class_name": "kibana content-length: 217",
+        "data": "HTTP/1.1 200 OK\r\nServer: nginx/1.12.2\r\nDate: Thu, 19 Mar 2020 04:04:57 GMT\r\nContent-Type: text/html; charset=utf-8\r\nContent-Length: 217\r\nConnection: keep-alive\r\nkbn-name: kibana\r\nkbn-version: 6.3.0\r\nkbn-xpack-sig: 67d14017c78f64136ceed037af32c8bd\r\ncache-control: no-cache\r\naccept-ranges: bytes\r\nvary: accept-encoding\r\n\r\n"
+    },
+    {
+        "class_name": "kibana content-length: 217",
+        "data": "HTTP/1.1 200 OK\r\nServer: nginx/1.6.2\r\nDate: Wed, 18 Mar 2020 23:06:35 GMT\r\nContent-Type: text/html; charset=utf-8\r\nContent-Length: 217\r\nConnection: keep-alive\r\nkbn-name: kibana\r\nkbn-version: 5.6.4\r\ncache-control: no-cache\r\naccept-ranges: bytes\r\nvary: accept-encoding\r\n\r\n"
+    },
+    {
+        "class_name": "kibana content-length: 217",
+        "data": "HTTP/1.1 200 OK\r\nServer: nginx/1.12.1\r\nDate: Wed, 18 Mar 2020 10:12:57 GMT\r\nContent-Type: text/html; charset=utf-8\r\nContent-Length: 217\r\nConnection: keep-alive\r\nkbn-name: kibana\r\nkbn-version: 5.6.5\r\ncache-control: no-cache\r\naccept-ranges: bytes\r\nvary: accept-encoding\r\n\r\n"
+    },
+    {
+        "class_name": "kibana content-length: 217",
+        "data": "HTTP/1.1 200 OK\r\nServer: nginx\r\nDate: Tue, 17 Mar 2020 22:17:21 GMT\r\nContent-Type: text/html; charset=utf-8\r\nContent-Length: 217\r\nConnection: keep-alive\r\nkbn-name: kibana\r\nkbn-version: 6.2.4\r\ncache-control: no-cache\r\naccept-ranges: bytes\r\nvary: accept-encoding\r\n\r\n"
+    },
+    {
+        "class_name": "kibana content-length: 217",
+        "data": "HTTP/1.1 200 OK\r\nServer: nginx/1.17.9\r\nDate: Tue, 17 Mar 2020 23:50:57 GMT\r\nContent-Type: text/html; charset=utf-8\r\nContent-Length: 217\r\nConnection: keep-alive\r\nkbn-name: kibana\r\nkbn-version: 5.6.3\r\ncache-control: no-cache\r\naccept-ranges: bytes\r\nvary: accept-encoding\r\n\r\n"
+    },
+    {
+        "class_name": "kibana content-length: 217",
+        "data": "HTTP/1.1 200 OK\r\naccept-ranges: bytes\r\ncache-control: no-cache\r\nContent-Type: text/html; charset=utf-8\r\nDate: Wed, 18 Mar 2020 03:25:30 GMT\r\nkbn-name: kibana\r\nkbn-version: 5.2.2\r\nServer: nginx/1.11.12\r\nvary: accept-encoding\r\nContent-Length: 217\r\nConnection: keep-alive\r\n\r\n"
+    },
+    {
+        "class_name": "kibana content-length: 217",
+        "data": "HTTP/1.1 200 OK\r\nServer: nginx\r\nDate: Tue, 17 Mar 2020 21:18:16 GMT\r\nContent-Type: text/html\r\nContent-Length: 217\r\nConnection: keep-alive\r\nkbn-name: kibana\r\nkbn-version: 4.4.2\r\ncache-control: no-cache\r\naccept-ranges: bytes\r\n\r\n"
+    },
+    {
+        "class_name": "kibana content-length: 217",
+        "data": "HTTP/1.1 200 OK\r\nServer: nginx\r\nDate: Tue, 17 Mar 2020 13:38:07 GMT\r\nContent-Type: text/html; charset=utf-8\r\nContent-Length: 217\r\nConnection: keep-alive\r\nkbn-name: kibana\r\nkbn-xpack-sig: d4e04b0e6980606f7f027b8115aa01c3\r\ncache-control: no-cache\r\naccept-ranges: bytes\r\nvary: accept-encoding\r\n\r\n"
+    },
+    {
+        "class_name": "kibana content-length: 217",
+        "data": "HTTP/1.1 200 OK\r\nServer: nginx/1.16.1\r\nDate: Tue, 17 Mar 2020 01:23:29 GMT\r\nContent-Type: text/html; charset=utf-8\r\nContent-Length: 217\r\nConnection: keep-alive\r\nkbn-name: kibana\r\nkbn-version: 6.1.4-1\r\nvary: origin,accept-encoding\r\ncache-control: no-cache\r\naccept-ranges: bytes\r\n\r\n"
+    },
+    {
+        "class_name": "kibana content-length: 217",
+        "data": "HTTP/1.1 200 OK\r\nServer: nginx\r\nDate: Tue, 17 Mar 2020 00:40:22 GMT\r\nContent-Type: text/html; charset=utf-8\r\nContent-Length: 217\r\nConnection: keep-alive\r\nkbn-name: kibana\r\nkbn-version: 4.6.5\r\ncache-control: no-cache\r\naccept-ranges: bytes\r\nvary: accept-encoding\r\n\r\n"
+    },
+    {
+        "class_name": "kibana content-length: 217",
+        "data": "HTTP/1.1 200 OK\r\nServer: nginx/1.16.1\r\nDate: Tue, 17 Mar 2020 05:46:52 GMT\r\nContent-Type: text/html; charset=utf-8\r\nContent-Length: 217\r\nConnection: keep-alive\r\nkbn-name: kibana\r\nkbn-version: 6.3.1\r\nkbn-xpack-sig: fca99bd247349a0339f7231620359c05\r\ncache-control: no-cache\r\naccept-ranges: bytes\r\nvary: accept-encoding\r\n\r\n"
+    },
+    {
+        "class_name": "kibana content-length: 217",
+        "data": "HTTP/1.1 200 OK\r\nServer: nginx/1.9.4\r\nDate: Tue, 17 Mar 2020 04:31:30 GMT\r\nContent-Type: text/html; charset=utf-8\r\nContent-Length: 217\r\nkbn-name: kibana\r\nkbn-version: 6.2.3\r\nkbn-xpack-sig: bf0772736550da88c2d72b788ce5d61b\r\ncache-control: no-cache\r\naccept-ranges: bytes\r\nvary: accept-encoding\r\n\r\n"
+    },
+    {
+        "class_name": "kibana content-length: 217",
+        "data": "HTTP/1.1 200 OK\r\nServer: nginx\r\nDate: Tue, 17 Mar 2020 06:33:33 GMT\r\nContent-Type: text/html; charset=utf-8\r\nContent-Length: 217\r\nConnection: keep-alive\r\nkbn-name: kibana\r\nkbn-version: 5.4.3\r\ncache-control: no-cache\r\naccept-ranges: bytes\r\nvary: accept-encoding\r\n\r\n"
+    },
+    {
+        "class_name": "kibana content-length: 217",
+        "data": "HTTP/1.1 200 OK\r\nServer: nginx\r\nDate: Mon, 16 Mar 2020 21:08:39 GMT\r\nContent-Type: text/html; charset=utf-8\r\nContent-Length: 217\r\nConnection: keep-alive\r\nkbn-name: kibana\r\nkbn-version: 5.6.12\r\ncache-control: no-cache\r\naccept-ranges: bytes\r\nvary: accept-encoding\r\n\r\n"
+    },
+    {
+        "class_name": "kibana content-length: 217",
+        "data": "HTTP/1.1 200 OK\r\nServer: nginx/1.12.2\r\nDate: Mon, 16 Mar 2020 17:00:04 GMT\r\nContent-Type: text/html; charset=utf-8\r\nContent-Length: 217\r\nConnection: keep-alive\r\nkbn-name: kibana\r\nkbn-version: 4.6.4\r\ncache-control: no-cache\r\naccept-ranges: bytes\r\nvary: accept-encoding\r\n\r\n"
+    },
+    {
+        "class_name": "kibana content-length: 217",
+        "data": "HTTP/1.1 200 OK\r\nServer: nginx/1.13.7\r\nDate: Mon, 16 Mar 2020 23:31:15 GMT\r\nContent-Type: text/html; charset=utf-8\r\nContent-Length: 217\r\nConnection: keep-alive\r\nkbn-name: kibana\r\nkbn-version: 5.6.4\r\ncache-control: no-cache\r\naccept-ranges: bytes\r\nvary: accept-encoding\r\n\r\n"
+    },
+    {
+        "class_name": "kibana content-length: 217",
+        "data": "HTTP/1.1 200 OK\r\nServer: nginx-rc\r\nDate: Mon, 16 Mar 2020 23:29:16 GMT\r\nContent-Type: text/html; charset=utf-8\r\nContent-Length: 217\r\nConnection: keep-alive\r\nkbn-name: kibana\r\nkbn-version: 6.3.2\r\nkbn-xpack-sig: 53ac6f277237fbcce426df70acf4de26\r\ncache-control: no-cache\r\naccept-ranges: bytes\r\nvary: accept-encoding\r\n\r\n"
+    },
+    {
+        "class_name": "kibana content-length: 217",
+        "data": "HTTP/1.1 200 OK\r\nServer: nginx\r\nDate: Mon, 16 Mar 2020 20:07:47 GMT\r\nContent-Type: text/html; charset=utf-8\r\nContent-Length: 217\r\nConnection: keep-alive\r\nkbn-name: kibana\r\nkbn-xpack-sig: d7de74a02dcb94c98a415bee21e72936\r\ncache-control: no-cache\r\naccept-ranges: bytes\r\nvary: accept-encoding\r\n\r\n"
+    }
+]
