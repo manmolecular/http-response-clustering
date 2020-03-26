@@ -1,0 +1,26 @@
+[
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 200 OK\r\nDate: Thu, 05 Mar 2020 16:56:43 GMT\r\nServer: Apache\r\nUpgrade: h2,h2c\r\nConnection: Upgrade\r\nVary: Accept-Encoding\r\nTransfer-Encoding: chunked\r\nContent-Type: text/html; charset=UTF-8\r\nSet-Cookie: SERVERID=http2019-2; path=/\r\n\r\n"
+    },
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 200 OK\r\nDate: Thu, 05 Mar 2020 16:56:43 GMT\r\nServer: Apache\r\nX-Powered-By: PHP/5.3.3\r\nP3P: CP=\"NOI NID ADMa OUR IND UNI COM NAV\"\r\nCache-Control: private, must-revalidate\r\nSet-Cookie: evozkc27n=4b078409ae3ae5c2d4b12d5d4c6ce59f; path=/\r\nSet-Cookie: evozkc27n=4b078409ae3ae5c2d4b12d5d4c6ce59f; path=/\r\nTransfer-Encoding: chunked\r\nContent-Type: text/html; charset=UTF-8\r\n\r\n"
+    },
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 200 OK\r\nDate: Thu, 05 Mar 2020 17:10:55 GMT\r\nServer: Apache/2.4.27 (Win32) PHP/5.4.45\r\nX-Powered-By: PHP/5.4.45\r\nSet-Cookie: PHPSESSID=gle4rb9q4q6prbu8ou5he9hdj3; path=/\r\nExpires: Thu, 19 Nov 1981 08:52:00 GMT\r\nCache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0\r\nPragma: no-cache\r\nTransfer-Encoding: chunked\r\nContent-Type: text/html\r\n\r\n"
+    },
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 200 OK\r\nServer: Apache-Coyote/1.1\r\nSet-Cookie: JSESSIONID=00CEDF6932F053EDB1B7A10CAB423E5E; Path=/; HttpOnly\r\nContent-Type: text/html;charset=UTF-8\r\nContent-Language: en-US\r\nContent-Length: 3410\r\nDate: Thu, 05 Mar 2020 16:54:37 GMT\r\n\r\n"
+    },
+    {
+        "class_name": "Flask",
+        "data": "HTTP/1.1 200 OK\r\nDate: Sun, 01 Mar 2020 17:55:52 GMT\r\nServer: Apache/2.4.7 (Ubuntu)\r\nContent-Length: 4395\r\nLast-Modified: Mon, 23 Jan 2017 00:53:50 GMT\r\nCache-Control: public, max-age=43200\r\nExpires: Mon, 02 Mar 2020 05:55:52 GMT\r\nETag: \"flask-1485132830.62-4395-19008967\"\r\nAccess-Control-Allow-Origin: *\r\nSet-Cookie: session=eyJfaWQiOnsiIGIiOiJPV0l5WXpRMFlUZG1OV1JrTmpjNVlqUTNaV05oWXpZd1ptSXhPVGhqWWpNPSJ9fQ.ET2IqA.K_F9vhDSBITYVt0JnwmvnRA1ixY; HttpOnly; Path=/\r\nVary: Accept-Encoding\r\nContent-Type: text/html; charset=utf-8\r\n\r\n"
+    },
+    {
+        "class_name": "Flask",
+        "data": "HTTP/1.1 200 OK\r\nDate: Wed, 04 Mar 2020 21:23:35 GMT\r\nServer: gunicorn/20.0.4\r\nContent-Type: text/html; charset=utf-8\r\nContent-Length: 86831\r\nX-Content-Type-Options: nosniff\r\nX-XSS-Protection: 1; mode=block\r\nStrict-Transport-Security: max-age=31536000; includeSubDomains; preload\r\nAccess-Control-Allow-Origin: *\r\nSet-Cookie: username=flask; Secure; HttpOnly; Path=/; SameSite=Lax\r\nVary: Accept-Encoding\r\n\r\n"
+    }
+]

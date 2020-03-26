@@ -1,0 +1,62 @@
+[
+    {
+        "class_name": "kibana content-length: 217",
+        "data": "HTTP/1.1 200 OK\r\nkbn-name: kibana\r\ncache-control: no-cache\r\ncontent-type: text/html; charset=utf-8\r\ncontent-length: 217\r\naccept-ranges: bytes\r\nvary: accept-encoding\r\nundefined: undefined\r\nDate: Thu, 19 Mar 2020 06:16:47 GMT\r\nConnection: keep-alive\r\n\r\n"
+    },
+    {
+        "class_name": "kibana content-length: 217",
+        "data": "HTTP/1.1 200 OK\r\nkbn-name: kibana\r\ncache-control: no-cache\r\ncontent-type: text/html; charset=utf-8\r\ncontent-length: 217\r\naccept-ranges: bytes\r\nundefined: undefined\r\nDate: Thu, 19 Mar 2020 09:07:26 GMT\r\nConnection: keep-alive\r\n\r\n<script>var hashRoute = '/app/kibana';\nvar defaultRoute = '/app/kibana';\n\nvar hash = window.location.hash;\nif (hash.length) {\n  window.location = hashRoute + hash;\n} else {\n  window.location = defaultRoute;\n}</script>"
+    },
+    {
+        "class_name": "kibana content-length: 217",
+        "data": "HTTP/1.1 200 OK\r\nkbn-name: kibana\r\nkbn-version: 6.3.2\r\ncache-control: no-cache\r\ncontent-type: text/html; charset=utf-8\r\ncontent-length: 217\r\naccept-ranges: bytes\r\nvary: accept-encoding\r\nundefined: undefined\r\nDate: Thu, 19 Mar 2020 07:33:34 GMT\r\nConnection: keep-alive\r\n\r\n"
+    },
+    {
+        "class_name": "kibana content-length: 217",
+        "data": "HTTP/1.1 200 OK\r\nkbn-name: kibana\r\nkbn-version: 6.3.2\r\ncache-control: no-cache\r\ncontent-type: text/html; charset=utf-8\r\ncontent-length: 217\r\naccept-ranges: bytes\r\nvary: accept-encoding\r\nundefined: undefined\r\nDate: Wed, 18 Mar 2020 13:23:44 GMT\r\nConnection: keep-alive\r\n\r\n"
+    },
+    {
+        "class_name": "kibana content-length: 217",
+        "data": "HTTP/1.1 200 OK\r\nkbn-name: kibana\r\ncache-control: no-cache\r\ncontent-type: text/html; charset=utf-8\r\ncontent-length: 217\r\naccept-ranges: bytes\r\nvary: accept-encoding\r\nundefined: undefined\r\nDate: Wed, 18 Mar 2020 08:13:58 GMT\r\nConnection: keep-alive\r\n\r\n"
+    },
+    {
+        "class_name": "kibana content-length: 217",
+        "data": "HTTP/1.1 200 OK\r\nkbn-name: kibana\r\ncache-control: no-cache\r\ncontent-type: text/html; charset=utf-8\r\ncontent-length: 217\r\naccept-ranges: bytes\r\nundefined: undefined\r\nDate: Tue, 17 Mar 2020 22:24:27 GMT\r\nConnection: keep-alive\r\n\r\n<script>var hashRoute = '/app/kibana';\nvar defaultRoute = '/app/kibana';\n\nvar hash = window.location.hash;\nif (hash.length) {\n  window.location = hashRoute + hash;\n} else {\n  window.location = defaultRoute;\n}</script>"
+    },
+    {
+        "class_name": "kibana content-length: 217",
+        "data": "HTTP/1.1 200 OK\r\nkbn-name: kibana\r\ncache-control: no-cache\r\ncontent-type: text/html; charset=utf-8\r\ncontent-length: 217\r\naccept-ranges: bytes\r\nvary: accept-encoding\r\nundefined: undefined\r\nDate: Tue, 17 Mar 2020 21:46:14 GMT\r\nConnection: keep-alive\r\n\r\n"
+    },
+    {
+        "class_name": "kibana content-length: 217",
+        "data": "HTTP/1.1 200 OK\r\nkbn-name: kibana\r\ncache-control: no-cache\r\ncontent-type: text/html; charset=utf-8\r\ncontent-length: 217\r\naccept-ranges: bytes\r\nvary: accept-encoding\r\nundefined: undefined\r\nDate: Wed, 18 Mar 2020 04:26:31 GMT\r\nConnection: keep-alive\r\n\r\n"
+    },
+    {
+        "class_name": "kibana content-length: 217",
+        "data": "HTTP/1.1 200 OK\r\nDate: Wed, 18 Mar 2020 04:32:49 GMT\r\nContent-Type: text/html; charset=utf-8\r\nContent-Length: 217\r\nConnection: keep-alive\r\nkbn-name: kibana\r\ncache-control: no-cache\r\naccept-ranges: bytes\r\nvary: accept-encoding\r\nundefined: undefined\r\n\r\n"
+    },
+    {
+        "class_name": "kibana content-length: 217",
+        "data": "HTTP/1.1 200 OK\r\nkbn-name: kibana\r\nkbn-version: 6.3.2\r\ncache-control: no-cache\r\ncontent-type: text/html; charset=utf-8\r\ncontent-length: 217\r\naccept-ranges: bytes\r\nvary: accept-encoding\r\nundefined: undefined\r\nDate: Tue, 17 Mar 2020 16:41:36 GMT\r\nConnection: keep-alive\r\n\r\n"
+    },
+    {
+        "class_name": "kibana content-length: 217",
+        "data": "HTTP/1.1 200 OK\r\nkbn-name: kibana\r\nkbn-version: 6.3.2\r\ncache-control: no-cache\r\ncontent-type: text/html; charset=utf-8\r\ncontent-length: 217\r\naccept-ranges: bytes\r\nvary: accept-encoding\r\nundefined: undefined\r\nDate: Tue, 17 Mar 2020 10:37:50 GMT\r\nConnection: keep-alive\r\n\r\n"
+    },
+    {
+        "class_name": "kibana content-length: 217",
+        "data": "HTTP/1.1 200 OK\r\nkbn-name: kibana\r\ncache-control: no-cache\r\ncontent-type: text/html; charset=utf-8\r\ncontent-length: 217\r\naccept-ranges: bytes\r\nvary: accept-encoding\r\nundefined: undefined\r\nDate: Tue, 17 Mar 2020 10:03:06 GMT\r\nConnection: keep-alive\r\n\r\n"
+    },
+    {
+        "class_name": "kibana content-length: 217",
+        "data": "HTTP/1.1 200 OK\r\nkbn-name: kibana\r\ncache-control: no-cache\r\ncontent-type: text/html; charset=utf-8\r\ncontent-length: 217\r\naccept-ranges: bytes\r\nundefined: undefined\r\nDate: Tue, 17 Mar 2020 11:10:11 GMT\r\nConnection: keep-alive\r\n\r\n<script>var hashRoute = '/app/kibana';\nvar defaultRoute = '/app/kibana';\n\nvar hash = window.location.hash;\nif (hash.length) {\n  window.location = hashRoute + hash;\n} else {\n  window.location = defaultRoute;\n}</script>"
+    },
+    {
+        "class_name": "kibana content-length: 217",
+        "data": "HTTP/1.1 200 OK\r\nkbn-name: kibana\r\ncache-control: no-cache\r\ncontent-type: text/html; charset=utf-8\r\ncontent-length: 217\r\naccept-ranges: bytes\r\nvary: accept-encoding\r\nundefined: undefined\r\nDate: Tue, 17 Mar 2020 13:59:33 GMT\r\nConnection: keep-alive\r\n\r\n"
+    },
+    {
+        "class_name": "kibana content-length: 217",
+        "data": "HTTP/1.1 200 OK\r\nkbn-name: kibana\r\nkbn-version: 6.3.2\r\ncache-control: no-cache\r\ncontent-type: text/html; charset=utf-8\r\ncontent-length: 217\r\naccept-ranges: bytes\r\nvary: accept-encoding\r\nundefined: undefined\r\nDate: Mon, 16 Mar 2020 18:29:44 GMT\r\nConnection: keep-alive\r\n\r\n"
+    }
+]

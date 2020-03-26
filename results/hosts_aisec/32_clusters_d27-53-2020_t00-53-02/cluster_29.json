@@ -1,0 +1,6 @@
+[
+    {
+        "class_name": "kibana content-length: 217",
+        "data": "HTTP/1.1 200 OK\r\nkbn-name: kibana\r\nkbn-xpack-sig: d4d5794e4db4142793ac7bb186a17866\r\ncache-control: no-cache\r\ncontent-type: text/html; charset=utf-8\r\ncontent-length: 217\r\naccept-ranges: bytes\r\nDate: Tue, 17 Mar 2020 07:33:28 GMT\r\nConnection: keep-alive\r\n\r\n<script>var hashRoute = '/app/kibana';\nvar defaultRoute = '/app/kibana';\n\nvar hash = window.location.hash;\nif (hash.length) {\n  window.location = hashRoute + hash;\n} else {\n  window.location = defaultRoute;\n}</script>"
+    }
+]

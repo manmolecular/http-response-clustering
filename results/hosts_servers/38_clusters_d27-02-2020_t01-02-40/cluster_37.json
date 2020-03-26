@@ -1,0 +1,6 @@
+[
+    {
+        "class_name": "Nginx",
+        "data": "HTTP/1.1 500 Internal Server Error\r\nServer: nginx/1.10.3 (Ubuntu)\r\nDate: Thu, 05 Mar 2020 16:56:18 GMT\r\nContent-Type: text/html; charset=UTF-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\n\r\n"
+    }
+]

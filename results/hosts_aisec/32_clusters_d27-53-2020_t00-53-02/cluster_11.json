@@ -1,0 +1,10 @@
+[
+    {
+        "class_name": "kibana content-length: 217",
+        "data": "HTTP/1.1 200 OK\r\nServer: nginx\r\nDate: Tue, 17 Mar 2020 20:28:32 GMT\r\nContent-Type: text/html; charset=utf-8\r\nContent-Length: 217\r\nConnection: keep-alive\r\nVary: Accept-Encoding\r\nkbn-name: kibana\r\nkbn-version: 6.3.1\r\nkbn-xpack-sig: 44601203a28cf04c12428cd67e653131\r\ncache-control: no-cache\r\naccept-ranges: bytes\r\nvary: accept-encoding\r\nundefined: undefined\r\nStrict-Transport-Security: max-age=15768000\r\n\r\n"
+    },
+    {
+        "class_name": "kibana content-length: 217",
+        "data": "HTTP/1.1 200 OK\r\nkbn-name: kibana\r\nkbn-version: 5.6.10\r\ncache-control: no-cache\r\ncontent-type: text/html; charset=utf-8\r\ncontent-length: 217\r\naccept-ranges: bytes\r\nvary: accept-encoding\r\nDate: Tue, 17 Mar 2020 14:42:46 GMT\r\nConnection: keep-alive\r\nSet-Cookie: NSC_uftu.njuufmtuboetdmpve.ef=ffffffffaf170b0445525d5f4f58455e445a4a4223d1;expires=Tue, 17-Mar-2020 14:41:55 GMT;path=/;secure;httponly\r\nStrict-Transport-Security: max-age=157680000\r\n\r\n"
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "class_name": "Flask",
+        "data": "HTTP/1.1 200 OK\r\nAccept-Ranges: none\r\nAccess-Control-Allow-Origin: *\r\nCache-Control: max-age=43200, public\r\nContent-Type: text/html; charset=utf-8\r\nDate: Tue, 03 Mar 2020 03:21:00 GMT\r\nETag: \"flask-1582669257.0-6774-992153448\"\r\nExpires: Tue, 03 Mar 2020 15:21:00 GMT\r\nLast-Modified: Tue, 25 Feb 2020 22:20:57 GMT\r\nServer: Apache/2.4.39 (Amazon) mod_wsgi/3.5 Python/3.4.10\r\nContent-Length: 6774\r\nConnection: keep-alive\r\n\r\n"
+    },
+    {
+        "class_name": "Flask",
+        "data": "HTTP/1.1 307 TEMPORARY REDIRECT\r\nContent-Type: text/html; charset=utf-8\r\nDate: Wed, 04 Mar 2020 17:34:14 GMT\r\nlocation: http://flask-env.9pupgqe3p2.us-west-2.elasticbeanstalk.com/login\r\nServer: Apache/2.4.33 (Amazon) mod_wsgi/3.5 Python/3.6.5\r\nContent-Length: 0\r\nConnection: keep-alive\r\n\r\n"
+    },
+    {
+        "class_name": "Flask",
+        "data": "HTTP/1.1 200 OK\r\nAccept-Ranges: none\r\nAccess-Control-Allow-Origin: *\r\nCache-Control: max-age=43200, public\r\nContent-Type: text/html; charset=utf-8\r\nDate: Mon, 02 Mar 2020 13:32:36 GMT\r\nETag: \"flask-1580863343.0-6774-992153448\"\r\nExpires: Tue, 03 Mar 2020 01:32:36 GMT\r\nLast-Modified: Wed, 05 Feb 2020 00:42:23 GMT\r\nServer: Apache/2.4.39 (Amazon) mod_wsgi/3.5 Python/3.4.10\r\nContent-Length: 6774\r\nConnection: keep-alive\r\n\r\n"
+    }
+]

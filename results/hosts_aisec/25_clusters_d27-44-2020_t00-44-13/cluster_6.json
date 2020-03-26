@@ -1,0 +1,18 @@
+[
+    {
+        "class_name": "kibana content-length: 217",
+        "data": "HTTP/1.1 200 OK\r\nServer: nginx/1.10.3 (Ubuntu)\r\nDate: Tue, 17 Mar 2020 23:09:25 GMT\r\nContent-Type: text/html; charset=utf-8\r\nContent-Length: 217\r\nConnection: keep-alive\r\nkbn-name: kibana\r\nset-cookie: searchguard_authentication=Fe26.2**a0ecb9131ee0bd901ef587105a5beb6b8c498f5baf4cf13a6dc492e133d9eca9*U0j2ppi3bgvIszRkpF00uQ*R9-Tst56snaSeHOZVqXmPI0HRchl3yd2b0VKlU3tiWIVGU5nWvXCoj6B34P9lmZRiumxcrglUZWQ6bCTYTpa-70B6v6Y7Q0dZDG1dIomeaed3N0laznJuWsE34-bUk4XEWgZT3n3tKxtFJjORtrR4rMY0L3FJnGyLvrRvU5Z5H1oRTQOeYRYyLqN-N7eNh1AM15NjeP1RmCBku2trAbI4g**696a7e49eb6b22005ccaeb32b4362b0a624ee99bb17055074451986db309295d*6m36snA58NbMD6pCTSMXdUqwfHL6mPcx61fsZUb8lV4; Max-Age=3600; Expires=Wed, 18 Mar 2020 00:09:25 GMT; HttpOnly; Path=/\r\nset-cookie: searchguard_storage=Fe26.2**96fbee55717dc721245947fa225e2fbd25ffc259b387dc5e75cdbbce8b9216ed*2X1_ZgInp7dX4bCjdEnueg*30t3tcCk2Q3bcbgERZcyP5hnNBj6cDiVXwb4yOw-njfeTuYqOET5UtAKYcf3NR_VWPrcbEWG-5a9y-SpkM3KbIG46i_gj68W3iyTBIZ5FcSw7LK_ZkNwNR8LN8CFORcTiBOGlmiLd9GQVuqZrVtNOCEmlRF2jFIzvw1MSB54l_K9iGnLaV85skuaScGpqIB7H3vrVI-L618jpKU3vVFNc3u-yNxwtkV6cSTmz7DXlLtvecEScIkwQpOKwcW3g1tGLMukFlgaiT2hmcuYiaNouwYZJO9FafYDg4V1T4Dfdik**03740a930b410cc495b1646429e89e66cf42892ad0c3fd795c35300df977e9b8*y5Vy4of_aeINrfczXtvqBCR7zQN6ooSOUnF5wlM7NXI; Path=/\r\ncache-control: no-cache\r\naccept-ranges: bytes\r\nvary: accept-encoding\r\n\r\n"
+    },
+    {
+        "class_name": "kibana content-length: 217",
+        "data": "HTTP/1.1 200 OK\r\nkbn-name: kibana\r\nkbn-version: 5.6.10\r\ncache-control: no-cache\r\ncontent-type: text/html; charset=utf-8\r\ncontent-length: 217\r\naccept-ranges: bytes\r\nvary: accept-encoding\r\nDate: Tue, 17 Mar 2020 14:42:46 GMT\r\nConnection: keep-alive\r\nSet-Cookie: NSC_uftu.njuufmtuboetdmpve.ef=ffffffffaf170b0445525d5f4f58455e445a4a4223d1;expires=Tue, 17-Mar-2020 14:41:55 GMT;path=/;secure;httponly\r\nStrict-Transport-Security: max-age=157680000\r\n\r\n"
+    },
+    {
+        "class_name": "kibana content-length: 217",
+        "data": "HTTP/1.1 200 OK\r\nServer: nginx/1.10.3 (Ubuntu)\r\nDate: Tue, 17 Mar 2020 13:15:15 GMT\r\nContent-Type: text/html; charset=utf-8\r\nContent-Length: 217\r\nConnection: keep-alive\r\nX-Powered-By: Express\r\nkbn-name: kibana\r\nkbn-version: 5.6.16\r\ncache-control: no-cache\r\naccept-ranges: bytes\r\nvary: accept-encoding\r\nset-cookie: psess=s%3Ad14bhixfkDP_qS_wGsdQhShuOb0EDc6H.otWYR2Gogp4tF6uz3pk4ZL4vD9YyU9PUBQgtZkJu%2Bnw; Path=/; HttpOnly\r\n\r\n"
+    },
+    {
+        "class_name": "kibana content-length: 217",
+        "data": "HTTP/1.1 200 OK\r\nDate: Tue, 17 Mar 2020 14:09:38 GMT\r\nContent-Type: text/html; charset=utf-8\r\nContent-Length: 217\r\nConnection: keep-alive\r\nSet-Cookie: AWSALB=rqdwYJTr61XQqr0+ApVJfvEQNXvBNQEANE646VwKs0qEVrZTJaPxxyuMq/M3+XuclKfMA5JrUajPofo1rhtplhgw0U1p6wG5GrPO+HQEoLir1ACJJuNojq8jbYFL; Expires=Tue, 24 Mar 2020 14:09:38 GMT; Path=/\r\nSet-Cookie: AWSALBCORS=rqdwYJTr61XQqr0+ApVJfvEQNXvBNQEANE646VwKs0qEVrZTJaPxxyuMq/M3+XuclKfMA5JrUajPofo1rhtplhgw0U1p6wG5GrPO+HQEoLir1ACJJuNojq8jbYFL; Expires=Tue, 24 Mar 2020 14:09:38 GMT; Path=/; SameSite=None; Secure\r\nkbn-name: kibana\r\nkbn-version: 6.2.4\r\ncache-control: no-cache\r\naccept-ranges: bytes\r\nvary: accept-encoding\r\n\r\n"
+    }
+]

@@ -1,0 +1,46 @@
+[
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 403 Forbidden\r\nDate: Thu, 05 Mar 2020 16:53:46 GMT\r\nServer: Apache/2.4.39 (Win32) OpenSSL/1.0.2s mod_fcgid/2.3.9a\r\nContent-Length: 209\r\nContent-Type: text/html; charset=iso-8859-1\r\n\r\n"
+    },
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 403 Forbidden\r\nDate: Thu, 05 Mar 2020 16:56:24 GMT\r\nServer: Apache\r\nContent-Length: 202\r\nContent-Type: text/html; charset=iso-8859-1\r\n\r\n"
+    },
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 404 Not Found\r\nDate: Thu, 05 Mar 2020 16:57:40 GMT\r\nServer: Apache/2.4.29 (Ubuntu)\r\nContent-Length: 276\r\nContent-Type: text/html; charset=iso-8859-1\r\n\r\n"
+    },
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 404 Not Found\r\nDate: Thu, 05 Mar 2020 16:54:58 GMT\r\nServer: Apache/2.4.29 (Ubuntu)\r\nContent-Length: 274\r\nContent-Type: text/html; charset=iso-8859-1\r\n\r\n"
+    },
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 403 Forbidden\r\nDate: Fri, 06 Mar 2020 05:59:15 GMT\r\nServer: Apache\r\nVary: Accept-Encoding\r\nContent-Length: 266\r\nConnection: close\r\nContent-Type: text/html; charset=iso-8859-1\r\n\r\n"
+    },
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 403 Forbidden\r\nDate: Fri, 06 Mar 2020 05:58:14 GMT\r\nServer: Apache\r\nVary: Accept-Encoding\r\nContent-Length: 266\r\nConnection: close\r\nContent-Type: text/html; charset=iso-8859-1\r\n\r\n"
+    },
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 403 Forbidden\r\nDate: Thu, 05 Mar 2020 16:54:22 GMT\r\nServer: Apache\r\nX-Frame-Options: sameorigin\r\nContent-Length: 209\r\nContent-Type: text/html; charset=iso-8859-1\r\n\r\n"
+    },
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 404 Not Found\r\nDate: Thu, 05 Mar 2020 16:56:22 GMT\r\nServer: Apache\r\nContent-Length: 198\r\nContent-Type: text/html; charset=iso-8859-1\r\n\r\n"
+    },
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 403 Forbidden\r\nDate: Thu, 05 Mar 2020 16:56:43 GMT\r\nServer: Apache/2.4.41\r\nContent-Length: 399\r\nContent-Type: text/html; charset=iso-8859-1\r\n\r\n"
+    },
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 404 Not Found\r\nDate: Thu, 05 Mar 2020 16:56:21 GMT\r\nServer: Apache/2.4.29 (Ubuntu)\r\nContent-Length: 276\r\nContent-Type: text/html; charset=iso-8859-1\r\n\r\n"
+    },
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 404 Not Found\r\nDate: Thu, 05 Mar 2020 16:56:43 GMT\r\nServer: Apache/2.4.41\r\nContent-Length: 398\r\nContent-Type: text/html; charset=iso-8859-1\r\n\r\n"
+    }
+]

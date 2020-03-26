@@ -1,0 +1,6 @@
+[
+    {
+        "class_name": "kibana content-length: 217",
+        "data": "HTTP/1.1 200 OK\r\nkbn-name: kibana\r\nkbn-version: 6.2.2\r\nkbn-xpack-sig: 4bdbe0198f13b67f74c483ee6d1e56e1\r\ncache-control: no-cache\r\ncontent-type: text/html; charset=utf-8\r\ncontent-length: 217\r\naccept-ranges: bytes\r\nvary: accept-encoding\r\nDate: Tue, 17 Mar 2020 06:13:13 GMT\r\nConnection: keep-alive\r\n\r\n"
+    }
+]

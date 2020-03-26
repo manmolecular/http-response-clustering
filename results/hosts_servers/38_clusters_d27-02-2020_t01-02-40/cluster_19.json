@@ -1,0 +1,14 @@
+[
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 200 OK\r\nContent-Type: text/html; charset=UTF-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nKeep-Alive: timeout=15\r\nDate: Thu, 05 Mar 2020 16:56:43 GMT\r\nServer: Apache\r\nX-Powered-By: PHP/7.3.15\r\nLink: <http://kolping-lembeck.de/wp-json/>; rel=\"https://api.w.org/\"\r\n\r\n"
+    },
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 200 OK\r\nDate: Thu, 05 Mar 2020 16:56:43 GMT\r\nServer: Apache\r\nX-Powered-By: PHP/7.2.28\r\nX-Pingback: http://www.kompass-ev.net/xmlrpc.php\r\nLink: <http://www.kompass-ev.net/index.php?rest_route=/>; rel=\"https://api.w.org/\", <http://www.kompass-ev.net/>; rel=shortlink\r\nVary: Accept-Encoding\r\nContent-Type: text/html; charset=UTF-8\r\nX-Varnish: 706317494\r\nAge: 0\r\nVia: 1.1 varnish (Varnish/6.3)\r\nAccept-Ranges: bytes\r\nConnection: keep-alive\r\nTransfer-Encoding: chunked\r\n\r\n"
+    },
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 200 OK\r\nContent-Type: text/html; charset=UTF-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nKeep-Alive: timeout=15\r\nDate: Thu, 05 Mar 2020 16:56:43 GMT\r\nServer: Apache\r\nX-Powered-By: PHP/7.0.33\r\nLink: <http://metalboxtechnology.com/wp-json/>; rel=\"https://api.w.org/\", <http://metalboxtechnology.com/>; rel=shortlink\r\n\r\n"
+    }
+]

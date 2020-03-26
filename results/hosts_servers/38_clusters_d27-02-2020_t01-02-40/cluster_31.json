@@ -1,0 +1,22 @@
+[
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 200 OK\r\nDate: Thu, 05 Mar 2020 16:55:13 GMT\r\nServer: Apache/2.4.29 (Ubuntu)\r\nLast-Modified: Tue, 14 Jan 2020 06:22:49 GMT\r\nETag: \"0-59c139f00f6db\"\r\nAccept-Ranges: bytes\r\nContent-Length: 0\r\nContent-Type: text/html\r\n\r\n"
+    },
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 200 OK\r\nDate: Thu, 05 Mar 2020 16:56:43 GMT\r\nServer: Apache/2.2.22 (Ubuntu)\r\nLast-Modified: Wed, 21 Oct 2009 20:16:19 GMT\r\nETag: \"90eaf-119b-47677a6d4eac0\"\r\nAccept-Ranges: bytes\r\nContent-Length: 4507\r\nVary: Accept-Encoding\r\nConnection: close\r\nContent-Type: text/html\r\n\r\n"
+    },
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 200 OK\r\nDate: Thu, 05 Mar 2020 16:56:47 GMT\r\nServer: Apache/2.4.29 (Ubuntu)\r\nLast-Modified: Tue, 14 Jan 2020 06:22:49 GMT\r\nETag: \"0-59c139f00e0e7\"\r\nAccept-Ranges: bytes\r\nContent-Length: 0\r\nContent-Type: text/html\r\n\r\n"
+    },
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 200 OK\r\nDate: Thu, 05 Mar 2020 16:56:02 GMT\r\nServer: Apache/2.4.7 (Ubuntu)\r\nLast-Modified: Tue, 28 Jun 2016 19:52:27 GMT\r\nETag: \"2cf6-5365bf9fa9691\"\r\nAccept-Ranges: bytes\r\nContent-Length: 11510\r\nVary: Accept-Encoding\r\nContent-Type: text/html\r\n\r\n"
+    },
+    {
+        "class_name": "Apache",
+        "data": "HTTP/1.1 200 OK\r\nDate: Thu, 05 Mar 2020 16:57:55 GMT\r\nServer: Apache/2.4.29 (Ubuntu)\r\nLast-Modified: Tue, 14 Jan 2020 06:22:49 GMT\r\nETag: \"0-59c139f00f9f5\"\r\nAccept-Ranges: bytes\r\nContent-Length: 0\r\nContent-Type: text/html\r\n\r\n"
+    }
+]

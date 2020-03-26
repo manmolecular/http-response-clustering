@@ -9,5 +9,6 @@ services:
     container_name: http-clustering
     volumes:
       - "./data:/app/data"
+      - "./results:/app/results"
     ports:
       - "8888:8888"
