@@ -3,8 +3,8 @@
 from copy import deepcopy
 from typing import Tuple, List, Dict
 
-from cluster.core.cluster import CustomCluster
 from cluster.configurations.default_values import DefaultValues
+from cluster.core.cluster import CustomCluster
 from cluster.handlers.files_handler import FilesHandler
 from cluster.handlers.shodan_handler import ShodanHandler
 from cluster.helpers.tools import Tools
